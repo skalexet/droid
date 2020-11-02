@@ -1,0 +1,64 @@
+{
+	"imageURL": "/img/tiles.png",
+	"tileW": 16,
+	"tileH": 16,
+
+	"tiles": [
+		{
+            "name": "sky",
+            "index": [13, 24]
+        },
+        {
+            "name": "mantleLiquid-1",
+            "index": [24, 3]
+        },
+        {
+            "name": "mantleLiquid-2",
+            "index": [25, 3]
+        },
+        {
+            "name": "mantleLiquid-3",
+            "index": [26, 3]
+        },
+        {
+            "name": "ground",
+            "index": [3, 3]
+        },
+        {
+            "name": "stone",
+            "index": [4, 2]
+        },
+        {
+            "name": "stone-2",
+            "index": [4, 3]
+        },
+        {
+            "name": "stone-3",
+            "index": [5, 2]
+        },
+        {
+            "name": "concrete",
+            "index": [5, 3]
+        }
+	],
+
+ 
+    
+    "animations": [
+        {
+            "name": "mantleLiquid",
+            "frameLen": 0.2,
+            "frames": [
+                "mantleLiquid-1",
+                "mantleLiquid-1",
+                "mantleLiquid-1",
+                "mantleLiquid-1",
+                "mantleLiquid-2",
+                "mantleLiquid-3",
+                "mantleLiquid-2"
+            ]
+        }
+    ]
+}
+
+

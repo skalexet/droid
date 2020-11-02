@@ -1,0 +1,10 @@
+{
+	"imageURL": "/img/characters.gif",
+
+	"frames": [
+        {
+			"name": "fall",
+			"rect": [46, 67, 20, 16]
+		}
+	]              
+}

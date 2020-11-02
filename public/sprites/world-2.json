@@ -1,0 +1,62 @@
+{
+	"imageURL": "/img/tiles.png",
+	"tileW": 16,
+	"tileH": 16,
+
+	"tiles": [
+		{
+			"name": "concrete",
+			"index": [2, 3]
+		},
+		{
+			"name": "ground",
+			"index": [1, 2]
+		},
+		{
+			"name": "sky",
+			"index": [3, 1]
+		},
+		{
+			"name": "net",
+			"index": [2, 2]
+		},
+		{
+			"name": "spidersEgg-1",
+			"index": [3, 0]
+		},
+		{
+			"name": "spidersEgg-2",
+			"index": [4, 0]
+		},
+		{
+			"name": "spidersEggFaster-1",
+			"index": [3, 0]
+		},
+		{
+			"name": "spidersEggFaster-2",
+			"index": [4, 0]
+		},
+		{
+			"name": "skull-1",
+			"index": [24, 2]
+		},
+		{
+			"name": "skull-2",
+			"index": [25, 2]
+		},
+		{
+			"name": "skull-3",
+			"index": [26, 2]
+		},
+		{
+			"name": "stone",
+			"index": [3, 2]
+		}
+	],
+
+	"entities": [
+		
+	]
+}
+
+

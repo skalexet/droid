@@ -1,0 +1,36 @@
+{
+	"egg": {
+		"tiles": [
+			{
+				"name": "egg-1",
+				"type": "ground",
+				"ranges": [
+					[1, 0]
+				]
+			},
+			{
+				"name": "egg-2",
+				"type": "ground",
+				"ranges": [
+					[2, 0]
+				]
+			},
+			{
+				"name": "egg-3",
+				"type": "ground",
+				"ranges": [
+					[1, 1]
+				]
+			},
+			{
+				"name": "egg-4",
+				"type": "ground",
+				"ranges": [
+					[2, 1]
+				]
+			}
+		]
+	} 
+
+	 
+}

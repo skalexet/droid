@@ -1,0 +1,59 @@
+{
+    "egg": {
+		"tiles": [
+			{
+				"name": "egg-1",
+				"ranges": [
+					[1, 0]
+				]
+			},
+			{
+				"name": "egg-2",
+				"ranges": [
+					[2, 0]
+				]
+			},
+			{
+				"name": "egg-3",
+				"ranges": [
+					[1, 1]
+				]
+			},
+			{
+				"name": "egg-4",
+				"ranges": [
+					[2, 1]
+				]
+			}
+		]
+	},
+
+	"shuttle": {
+		"tiles": [
+			{
+				"name": "shuttle-1",
+				"ranges": [
+					[24, 4]
+				]
+			},
+			{
+				"name": "shuttle-2",
+				"ranges": [
+					[25, 4]
+				]
+			},
+			{
+				"name": "shuttle-3",
+				"ranges": [
+					[24, 5]
+				]
+			},
+			{
+				"name": "shuttle-4",
+				"ranges": [
+					[25, 5]
+				]
+			}
+		]
+	}
+}

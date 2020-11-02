@@ -1,0 +1,89 @@
+{
+	"imageURL": "/img/characters.gif",
+
+	"frames": [
+		{
+			"name": "idle",
+			"rect": [278, 44, 13, 16]
+		},
+		{
+			"name": "run-1",
+			"rect": [292, 44, 13, 16]
+		},
+		{
+			"name": "run-2",
+			"rect": [306, 44, 13, 16]
+		},
+		{
+			"name": "run-3",
+			"rect": [320, 44, 13, 16]
+		},
+		{
+			"name": "hit-1",
+			"rect": [427, 44, 15, 16]
+		},
+		{
+			"name": "hit-2",
+			"rect": [451, 44, 15, 16]
+		},
+		{
+			"name": "hit-3",
+			"rect": [472, 44, 15, 16]
+		},
+		{
+			"name": "runFihgt-1",
+			"rect": [427, 63, 15, 16]
+		},
+		{
+			"name": "runFihgt-2",
+			"rect": [451, 63, 15, 16]
+		},
+		{
+			"name": "runFihgt-3",
+			"rect": [472, 63, 15, 16]
+		},
+		{
+			"name": "break",
+			"rect": [334, 44, 16, 16]
+		},
+		{
+			"name": "jump",
+			"rect": [355, 44, 16, 16]
+		}
+	],
+
+	"animations": [
+        {
+            "name": "run",
+            "frameLen": 6,
+            "frames": [
+                "run-1",
+                "run-2",
+                "run-3"
+            ]
+		},
+		{
+            "name": "hit",
+            "frameLen": 6,
+            "frames": [ 
+            	"hit-2",     
+				"hit-3",
+                "hit-2",
+                "hit-1"
+            ]
+		},
+		{
+            "name": "runFight",
+            "frameLen": 6,
+            "frames": [    
+				"runFihgt-3",
+				"runFihgt-2",
+				"runFihgt-1",
+				"runFihgt-2"
+            ]
+		}
+    ]
+}
+
+
+ 

@@ -1,0 +1,22 @@
+{
+	"fx": {
+		"jump": {
+			"url": "../audio/jump.ogg"
+		},
+		"hitHumid": {
+			"url": "../audio/hitHumid.ogg"
+		},
+		"hitBjaka": {
+			"url": "../audio/hitBjaka.ogg"
+		},
+		"hitGorilla": {
+			"url": "../audio/hitGorilla.ogg"
+		},
+		"hitSpider": {
+			"url": "../audio/hitSpider.ogg"
+		},
+		"die": {
+			"url": "../audio/die.ogg"
+		}
+	}
+}

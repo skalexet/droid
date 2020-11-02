@@ -1,0 +1,72 @@
+{
+	"imageURL": "/img/tiles.png",
+	"tileW": 16,
+	"tileH": 16,
+
+	"tiles": [
+        {
+            "name": "sky",
+            "index": [11, 20]
+        },
+        {
+            "name": "bricks",
+            "index": [0, 0]
+        },
+        {
+            "name": "concrete",
+            "index": [0, 1]
+        },
+        {
+			"name": "egg-1",
+			"index": [1, 0]
+		},
+		{
+			"name": "egg-2",
+			"index": [2, 0]
+		},
+		{
+			"name": "egg-3",
+			"index": [1, 1]
+		},
+		{
+			"name": "egg-4",
+			"index": [2, 1]
+        },
+        {
+            "name": "tube",
+            "index": [0, 9]
+        },
+        {
+            "name": "out",
+            "index": [0, 8]
+        },
+        {
+            "name": "grace",
+            "index": [0, 2]
+        },
+        {
+			"name": "shuttle-1",
+			"index": [24, 4]
+		},
+		{
+			"name": "shuttle-2",
+			"index": [25, 4]
+		},
+		{
+			"name": "shuttle-3",
+			"index": [24, 5]
+		},
+		{
+			"name": "shuttle-4",
+			"index": [25, 5]
+        }
+	],
+
+ 
+    
+    "animations": [
+         
+    ]
+}
+
+

@@ -1,0 +1,20 @@
+{
+  "name": "DROID",
+  "version": "1.0.0",
+  "description": "mini game",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ./public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexi",
+  "license": "MIT",
+  "devDependencies": {
+    "npm-install-webpack-plugin": "^4.0.5"
+  },
+  "dependencies": {
+    "make-dir": "^3.1.0",
+    "serve": "^11.3.2"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}

@@ -1,0 +1,35 @@
+{
+	"imageURL": "/img/characters.gif",
+
+	"frames": [
+		{
+			"name": "walk-1",
+			"rect": [46, 47, 20, 16]
+		},
+		{
+			"name": "walk-2",
+			"rect": [70, 47, 20, 16]
+		},
+		{
+			"name": "walk-3",
+			"rect": [100, 47, 20, 16]
+        },
+        {
+			"name": "fall",
+			"rect": [126, 47, 20, 16]
+		}
+	],
+
+	"animations": [
+        {
+            "name": "walk",
+            "frameLen": 0.08,
+            "frames": [
+                "walk-1",
+                "walk-2",
+                "walk-3",
+                "walk-2"
+            ]
+        }
+    ]                        
+}

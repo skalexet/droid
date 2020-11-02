@@ -1,0 +1,245 @@
+{ 
+	"spriteSheet": "world-2",
+	"musicSheet": "world-2",
+	"patternSheet": "world-2-pattern",
+	"checkPoints": "1-2-checkPoints",
+
+	"layers": [
+		{
+			"tiles": [ 
+				
+				{
+					"name": "sky",
+					"ranges": [
+						[
+							0, 212,
+							0, 15
+						]
+					]
+				},
+				{
+					"name": "concrete",
+					"type": "ground",
+					"ranges": [
+						[0, 2, 0, 13],
+						[4, 3, 0, 5]
+					]
+				},
+				{
+					"name": "ground",
+					"type": "ground",
+					"ranges": [
+						[
+							0, 222,
+							13, 2
+						],
+						[33, 12, 11],
+						[55, 3, 2, 6]
+					]
+				},
+				{
+					"name": "sky",
+					"ranges": [
+						[64, 161, 13, 2]
+					]
+				},
+				{
+					"name": "net",
+					"type": "ground",
+					"ranges": [
+						[7, 150, 0, 2],
+						[10, 1, 11, 2],
+						[10, 2, 10],
+						[11, 1, 11, 2],
+						[21, 3, 8],
+						[24, 2, 5, 4],
+						[26, 3, 8],
+						[38, 2, 6, 5],
+						[47, 3, 2, 6],
+						[58, 3, 2, 4],
+						[58, 1, 11],
+						[64, 1, 9],
+						[70, 1, 2, 3],
+						[69, 3, 9],
+						[74, 3, 9],
+						[79, 3, 9],
+						[82, 3, 9],
+						[89, 3, 9],
+						[95, 1, 6],
+						[94, 2, 12],
+						[99, 3, 9],
+						[110, 3, 9],
+						[120, 1, 7],
+						[126, 1, 8],
+						[141, 1, 7],
+						[143, 1, 10],
+						[161, 5, 10],
+						[163, 1, 2]
+					]
+				},
+				{
+					"name": "skull-1",
+					"type": "ground",
+					"ranges": [
+						[105, 3, 9],
+						[116, 2, 10],
+						[124, 1, 10],
+						[130, 1, 6],
+						[133, 1, 11],
+						[137, 1, 9],
+						[144, 1, 5],
+						[147, 1, 10],
+						[150, 1, 7],
+						[153, 1, 4],
+						[156, 1, 7],
+						[163, 1, 7],
+						[169, 1, 7],
+						[178, 2, 9],
+						[180, 1, 6]
+					]  
+				},
+				{
+					"name": "stone",
+					"type": "ground",
+					"ranges": [
+						[174, 2, 6],
+						[186, 1, 8],
+						[189, 2, 8],
+						[193, 2, 8],
+						[197, 3, 8]
+					]
+				},
+				{
+					"name": "sky",
+					"ranges": [
+						[120, 9, 1],
+						[129, 42, 0, 2]
+					]
+				},
+				{
+					"name": "skull-2",
+					"type": "ground",
+					"ranges": [
+						[150, 1, 12]
+					]  
+				},
+				{
+					"name": "skull-3",
+					"type": "ground",
+					"ranges": [
+						[183, 1, 5]
+					]  
+				},
+				{
+					"name": "ground",
+					"type": "ground",
+					"ranges": [
+						[200, 33, 0, 3],
+						[205, 28, 3, 2],
+						[209, 24, 5]
+					]
+				},
+				{
+					"name": "concrete",
+					"type": "ground",
+					"ranges": [
+						[204, 4, 10],
+						[204, 5, 11],
+						[204, 6, 12],
+						[204, 7, 13]
+					]
+				}
+            ]
+		},
+		{
+            "tiles": [
+                {
+                    "pattern": "spidersEgg",
+                    "ranges": [
+                        [
+                            35, 5
+						],
+						[
+							78, 8
+						]
+                    ]
+                }
+            ]
+        }
+    ],
+
+	"entities": [
+		{
+			"name": "spider",
+			"pos": [100, 130]
+		},
+		{
+			"name": "spider",
+			"pos": [270, 50]
+		},
+		{
+			"name": "spider",
+			"pos": [490, 50]
+		},
+		{
+			"name": "spider",
+			"pos": [610, 50]
+		},
+		{
+			"name": "spidersEgg",
+			"pos": [620, 70]
+		},
+		{
+			"name": "spidersEgg",
+			"pos": [1280, 120]
+		},
+		{
+			"name": "spidersEggFaster",
+			"pos": [1314, 120]
+		},
+		{
+			"name": "spidersEgg",
+			"pos": [2080, 0]
+		},
+		{
+			"name": "spidersEggFaster",
+			"pos": [2260, 0]
+		},
+		{
+			"name": "spidersEgg",
+			"pos": [2360, 0]
+		},
+		{
+			"name": "spidersEggFaster",
+			"pos": [2500, 0]
+		},
+		{
+			"name": "spidersEgg",
+			"pos": [2650, 0]
+		},
+		{
+			"name": "spidersEggFaster",
+			"pos": [2700, 0]
+		},
+		{
+			"name": "spidersEgg",
+			"pos": [2900, 0]
+		},
+		{
+			"name": "bigSpider",
+			"pos": [1770, 50]
+		},
+		{
+			"name": "bigSpider",
+			"pos": [2785, 50]
+		}
+	],
+	
+	"triggers": [
+		{
+			"type": "goto",
+			"name": "3",
+			"pos": [3355, 115]
+		}
+	]
+}

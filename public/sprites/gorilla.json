@@ -1,0 +1,49 @@
+{
+	"imageURL": "/img/characters.gif",
+
+	"frames": [
+		{
+			"name": "live-1",
+			"rect": [292, 312, 17, 18]
+		},
+		{
+			"name": "live-2",
+			"rect": [312, 312, 17, 18]
+		},
+		{
+			"name": "live-3",
+			"rect": [330, 312, 17, 18]
+		},
+		{
+			"name": "live-4",
+			"rect": [351, 312, 17, 18]
+		},
+		{
+			"name": "live-5",
+			"rect": [372, 312, 17, 18]
+		},
+		{
+			"name": "fall",
+			"rect": [275, 312, 17, 18]
+		}
+	],
+
+	"animations": [
+        {
+            "name": "live",
+            "frameLen": 0.15,
+            "frames": [
+                "live-1",
+                "live-1",
+                "live-1",
+                "live-2",
+                "live-3",
+                "live-4",
+                "live-5",
+                "live-4",
+                "live-3",
+                "live-2"
+            ]
+		}
+    ]                        
+}

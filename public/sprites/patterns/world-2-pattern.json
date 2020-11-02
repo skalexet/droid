@@ -1,0 +1,38 @@
+{
+	"spidersEgg": {
+		"tiles": [
+			{
+				"name": "spidersEgg-1",
+				"ranges": [
+					[3, 0]
+				]
+			},
+			{
+				"name": "spidersEgg-2",
+				"ranges": [
+					[4, 0]
+				]
+			}
+		]
+	},
+
+	"spidersEggFaster": {
+		"tiles": [
+			{
+				"name": "spidersEggFaster-1",
+				"type": "ground",
+				"ranges": [
+					[3, 0]
+				]
+			},
+			{
+				"name": "spidersEggFaster-2",
+				"type": "ground",
+				"ranges": [
+					[4, 0]
+				]
+			}
+		]
+	}
+	
+}

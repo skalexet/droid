@@ -1,6 +1,6 @@
 # droid
-my little start is platformer game DROID
+my little start in js is a platformer game - DROID
 
 hope you enjoy :)
 
->> http://cx29382.tmweb.ru/ 
+>> http://droidplatformgame.web.app

@@ -7,7 +7,7 @@
     "start": "serve ./public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Alexi",
+  "author": "skalexet",
   "license": "MIT",
   "devDependencies": {
     "npm-install-webpack-plugin": "^4.0.5"

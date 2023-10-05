@@ -17,7 +17,6 @@ export function setupKeyboard(window) {
 			router.route(entity => entity.traits.get(Jump).cancel());
 		}
 	});
-
 	
 	input.addMapping('KeyS', keyState => {
 		router.route(entity => entity.turbo(keyState));

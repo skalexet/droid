@@ -20,16 +20,4 @@ export default class Trait {
 	queue(task) {
 		this.listen(Trait.EVENT_TASK, task, 1);
 	}
-
-	collides(us, them) {
-
-	}
-
-	obstruct() {
-
-	}
-
-	update() {
-
-	}
 }

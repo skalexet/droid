@@ -12,11 +12,4 @@ export default class Scene {
 	draw(gameContext) {
 		this.comp.draw(gameContext.videoContext);
 	}
-
-	update(gameContext) {
-    }
-    
-    pause() {
-        
-    }
 }

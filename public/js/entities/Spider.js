@@ -63,7 +63,7 @@ class Behavior extends Trait {
 		}
 	}
 
-	update(entity, gameContext, level) {
+	update(entity, level) {
 		if(entity.pos.y > level.camera.size.y) {
 			entity.traits.get(Killable).kill();
 		}

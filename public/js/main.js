@@ -15,7 +15,6 @@ import Scene from './Scene.js';
 import TimedScene from './TimedScene.js';
 
 async function main() {
-	
 	const canvas = document.createElement('canvas');
 	canvas.id = 'screen';
 	canvas.width = 256;
@@ -33,7 +32,7 @@ async function main() {
 		loadFont(),
 	]); 
 
-	const loadLevel = await createLevelLoader(entityFactory);
+	const loadLevel = createLevelLoader(entityFactory);
 
 	const sceneRunner = new SceneRunner();
 

@@ -63,7 +63,7 @@ function createDroidFactory(sprite, audio) {
 	}
 
 	function droidDraw(context) {
-		sprite.draw(routeFrame(this), context, 0, 0, this.traits.get(Go).heading < 0); // then we dr aw SpriteSHeet's							                        // by method draw takes name, x, y and context
+		sprite.draw(routeFrame(this), context, 0, 0, this.traits.get(Go).heading < 0); // then we draw SpriteSHeet's by method draw takes name, x, y and context
 	}
 
 	return function createDroid() {

@@ -30,18 +30,18 @@ export default class Entity {
 	}
 
 	addTrait(trait) { 
-		this.traits.set(trait.constructor, trait);
+		this.traits.set?.(trait.constructor, trait);
 	}
 
 	collides(candidate) {
 		this.traits.forEach(trait => { 
-			trait.collides(this, candidate);  
+			trait.collides?.(this, candidate);  
 		});
 	}
 
 	obstruct(side, match) {
 		this.traits.forEach(trait => { 
-			trait.obstruct(this, side, match); 
+			trait.obstruct?.(this, side, match); 
 		});
 	}
 
@@ -53,7 +53,7 @@ export default class Entity {
 		this.events.emit(Trait.EVENT_TASK, this);
 		
 		this.traits.forEach(trait => {
-			trait.finalize(this);
+			trait.finalize?.(this);
 		});
 
 		this.events.clear();
@@ -70,7 +70,7 @@ export default class Entity {
 	update(gameContext, level) {  
 
 		this.traits.forEach(trait => { 
-			trait.update(this, gameContext, level);  
+			trait.update?.(this, gameContext, level);  
 		});
 
 		this.playSounds(this.audio, gameContext.audioContext);

@@ -16,7 +16,7 @@ export default class SceneRunner {
     runNext() {
         const currentScene = this.scenes[this.sceneIndex];
         if (currentScene) {
-            currentScene.pause();
+            currentScene.pause?.();
         }
         this.sceneIndex++;
     }
@@ -24,7 +24,7 @@ export default class SceneRunner {
     update(gameContext) {
         const currentScene = this.scenes[this.sceneIndex];
         if (currentScene) {
-            currentScene.update(gameContext);
+            currentScene?.update(gameContext);
             currentScene.draw(gameContext); 
         }
     }

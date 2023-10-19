@@ -7,7 +7,7 @@ import Solid from '../traits/Solid.js';
 import Physics from '../traits/Physics.js';
 import {loadAudioBoard} from '../loaders/audio.js'; 
 import {loadSpriteSheet} from '../loaders/sprite.js';
-import Camera from '../Camera.js'; 
+import Camera from '../Camera.js';
 import CheckPoint from '../CheckPoint.js';
 
 const SLOW_DRAG = 1/1000;

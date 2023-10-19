@@ -15,7 +15,7 @@ import {loadMantleRainFastest} from './entities/MantleRainFastest.js';
 import {loadHumidCheckPoint} from './entities/HumidCheckPoint.js';
 import {loadBjakaCheckPoint} from './entities/BjakaCheckPoint.js';
 
-export function loadEntities(audioContext) {
+export async function loadEntities(audioContext) {
 	const entityFactories = {};
 
 	function addAs(name) {
@@ -40,5 +40,6 @@ export function loadEntities(audioContext) {
 		loadSpidersEgg(audioContext).then(addAs('spidersEgg')),
 		loadSpidersEggFaster(audioContext).then(addAs('spidersEggFaster')),
 	])
-	.then(() => entityFactories);
+	.then(() => entityFactories)
+	.catch(error => console.error('Error', error));
 }

@@ -27,11 +27,7 @@ async function main() {
 	const videoContext = canvas.getContext('2d');
 	const audioContext = new AudioContext();
 	
-	const [entityFactory, font] = await Promise.all([
-		loadEntities(audioContext),
-		loadFont(),
-	]); 
-
+	const [entityFactory, font] = await Promise.all([loadEntities(audioContext), loadFont()]);
 	const loadLevel = createLevelLoader(entityFactory);
 
 	const sceneRunner = new SceneRunner();

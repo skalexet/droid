@@ -8,7 +8,7 @@ export function loadImage(url) {
 	});
 }
 
-export function loadJSON(url) {
+export async function loadJSON(url) {
 	return fetch(url) 
 	.then(r => r.json());
 }

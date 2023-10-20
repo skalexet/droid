@@ -1,6 +1,5 @@
 # droid
-my little start in js is a platformer game - DROID
 
-hope you enjoy :)
+Platformer
 
->> http://droidplatformgame.web.app
+old version >> https://droidplatformgame.web.app

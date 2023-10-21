@@ -14,7 +14,7 @@ import { createPlayerProgressLayer } from './layers/player-progress.js';
 import Scene from './Scene.js';
 import TimedScene from './TimedScene.js';
 
-async function main() {
+const main = async () => {
 	const canvas = document.createElement('canvas');
 	canvas.id = 'screen';
 	canvas.width = 256;
@@ -32,7 +32,7 @@ async function main() {
 
 	const sceneRunner = new SceneRunner();
 
-	const droid = entityFactory.droid();	
+	const droid = entityFactory.droid();
 	makePlayer(droid, "DROID");
 	
 	window.droid = droid;

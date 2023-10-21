@@ -14,7 +14,7 @@ export function createPlayerEnv(playerEntity, level) {
 	checkPoint.level = level;
 	playerEntity.traits.get(Go).checkPoint = checkPoint;
 	
-	playerControl.checkpoint.set(32, 32); /* TODO: TO NOT FORGET 32x32 */ /* END OF TE LINE: 3700 */
+	playerControl.checkpoint.set(32, 32); /* END OF TE LINE: ~3700 */
 	playerEnv.addTrait(playerControl);
 	playerControl.setPlayer(playerEntity);
 	return playerEnv;
